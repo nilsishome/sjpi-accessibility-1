@@ -13,10 +13,10 @@ document.write("<p>Another document.write() call</p>") */
 window.onpopstate = () => history.go(1) */
 
 // Ändrar bakgrundsfärgen slumpmässigt var 500ms
-setInterval(() => {
+/* setInterval(() => {
   document.body.style.backgroundColor =
     "#" + Math.floor(Math.random() * 16777215).toString(16)
-}, 500)
+}, 500) */
 
 // Visar innehållet på sidan efter 5 sekunder (ändrat så det visas direkt istället)
 /* document.body.style.display = "block" */
