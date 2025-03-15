@@ -44,15 +44,11 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
   <body>
     <!-- Navigeringsmeny med dubblett-ID:n, inkonsekvent tabindex, och brutna länkar till en 404-sida. -->
     <nav class="navigation">
-      <span class="nav-item" id="1" tabindex="-1"
-        ><a href="404.html" target="_blank">Home</a></span
-      >
-      <span class="nav-item" id="1" tabindex="-1"
-        ><a href="404.html">World</a></span
-      >
-      <span class="nav-item" id="1"><a href="404.html">Sports</a></span>
-      <span class="nav-item" id="1"
-        ><a href="404.html" target="_blank">Entertainment</a></span
+      <span class="nav-item" id="1" tabindex="0"><a href="#">Home</a></span>
+      <span class="nav-item" id="2" tabindex="0"><a href="#">World</a></span>
+      <span class="nav-item" id="3" tabindex="0"><a href="#">Sports</a></span>
+      <span class="nav-item" id="4" tabindex="0"
+        ><a href="#">Entertainment</a></span
       >
     </nav>
 
@@ -79,7 +75,7 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
           have unique traits that could contribute to future medical research
           and biotechnology.
         </p>
-        <a href="404.html">Click here!</a>
+        <a href="#">Click here!</a>
       </div>
 
       <!-- Klicka på artikeln för att visa ett meddelande, men den utför egentligen inget. -->
