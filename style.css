@@ -146,6 +146,12 @@ a {
   cursor: pointer;
 }
 
+/* En alldeles för stor bild från Wikipedia */
+#wikipedia_flower {
+  max-width: 50%;
+  max-height: auto;
+}
+
 /* En "fake ad" med blinkande bakgrund och fast position längst ner */
 #fake-ad {
   position: fixed;
