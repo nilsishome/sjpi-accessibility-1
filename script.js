@@ -19,7 +19,7 @@ setInterval(() => {
 }, 500)
 
 // Visar innehållet på sidan efter 5 sekunder (ändrat så det visas direkt istället)
-document.body.style.display = "block"
+/* document.body.style.display = "block" */
 
 // Loggar 10000 tal till konsolen efter 1 sekund
 /* setTimeout(() => {
