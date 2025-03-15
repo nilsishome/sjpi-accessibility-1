@@ -62,12 +62,13 @@ a {
 
 /* Rubrik med stor text och mörkröd färg, justerad till höger */
 .headline {
+  display: block;
   font-size: 80px;
   font-weight: lighter;
   color: #8d0801;
-  text-align: right;
-  margin: 50px;
-  padding: 20px;
+  text-align: center;
+  margin: 100px auto 30px auto;
+  padding: 50px;
 }
 
 /* Navigeringsmeny med mörk bakgrund och jämnt fördelade element */
