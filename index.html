@@ -28,14 +28,17 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
 
 <!DOCTYPE html>
 <!-- Vad händer när man kommenterar bort språket? -->
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A11y News is a website that makes news more fun for the user."
+    />
     <link rel="stylesheet" href="style.css" />
     <!-- Endast en `<title>` används; flera kan orsaka oväntat beteende och påverka SEO samt tillgänglighet negativt. -->
     <title>A11y News</title>
-    <title>A11y News dupe</title>
   </head>
 
   <body>
@@ -98,7 +101,7 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
       <div class="article" style="display: none">
         <p class="headline">Se en 50MB bild ladda långsamt!</p>
         <img
-          src="http://upload.wikimedia.org/wikipedia/commons/3/3f/JPEG_example_flower.jpg"
+          src="https://upload.wikimedia.org/wikipedia/commons/3/3f/JPEG_example_flower.jpg"
           alt="A flower"
           id="wikipedia_flower"
         />
@@ -113,7 +116,7 @@ Det finns många sätt att göra en webbplats mer tillgänglig, till exempel att
           src="https://www.w3schools.com/html/mov_bbb.mp4"
         ></video>
         <img
-          src="http://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif"
+          src="https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif"
           alt="Forrest Gump, waving"
         />
       </div>
