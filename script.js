@@ -37,3 +37,13 @@ window.onpopstate = () => history.go(1) */
 /* for (let i = 0; i < 100000; i++) {
   console.log(i)
 } */
+
+// Knappen som omringar Sök-länken ska ha samma funktionalitet, som när man klickar direkt på länken
+(() => {
+  const searchBtn = document.querySelector("#searchBtn");
+  const searchLink = document.querySelector("#searchLink");
+
+  searchBtn.addEventListener("click", () => {
+    window.location.href = searchLink.getAttribute("href");
+  });
+})();

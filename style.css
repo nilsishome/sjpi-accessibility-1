@@ -134,8 +134,8 @@ a {
   color: white;
   font-size: 40px;
   padding: 30px;
-  /* cursor: crosshair;
-  transform: rotate(-10deg); */
+  cursor: pointer;
+  /* transform: rotate(-10deg); */
 }
 
 /* En knapp med blå bakgrund och vit text */
